@@ -1,0 +1,24 @@
+{
+  "name": "ks-repl",
+  "version": "0.0.1",
+  "description": "repl with more",
+  "main": "index.js",
+  "keywords": [
+    "utils"
+  ],
+  "dependencies": {
+    
+  },
+  "devDependencies": {},
+  "scripts": {
+    "release:major": "npm version major && npm publish && git push --follow-tags",
+    "release:minor": "npm version minor && npm publish && git push --follow-tags",
+    "release:patch": "npm version patch && npm publish && git push --follow-tags"
+  },
+  "homepage": "https://github.com/koa-ship/ks-repl",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/koa-ship/ks-repl.git"
+  },
+  "license": "MIT"
+}

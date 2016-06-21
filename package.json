@@ -6,7 +6,10 @@
   "keywords": [
     "utils"
   ],
-  "dependencies": {},
+  "dependencies": {
+    "fs-extra": "^0.30.0",
+    "glob": "^7.0.5"
+  },
   "devDependencies": {},
   "scripts": {
     "release:major": "npm version major && npm publish && git push --follow-tags",
